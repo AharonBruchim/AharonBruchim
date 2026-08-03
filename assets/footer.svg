@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 96" width="900" height="96" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#14508C"/>
+      <stop offset="100%" stop-color="#2F81F7"/>
+    </linearGradient>
+    <clipPath id="fc"><rect width="900" height="96" rx="16"/></clipPath>
+    <style>
+      @keyframes fwaveA { from { transform: translateX(0) } to { transform: translateX(-900px) } }
+      @keyframes fwaveB { from { transform: translateX(0) } to { transform: translateX(-1200px) } }
+      .fa { animation: fwaveA 20s linear infinite; }
+      .fb { animation: fwaveB 28s linear infinite; }
+      @media (prefers-reduced-motion: reduce) { .fa, .fb { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#fc)">
+    <rect width="900" height="96" fill="url(#fg)"/>
+    <g class="fa" opacity=".18">
+      <path d="M0 30 q112 -22 225 0 t225 0 t225 0 t225 0 v-40 H0 Z" fill="#0D1117"/>
+    </g>
+    <g class="fb" opacity=".12">
+      <path d="M0 44 q150 -26 300 0 t300 0 t300 0 t300 0 v-50 H0 Z" fill="#0D1117"/>
+    </g>
+    <text x="450" y="70" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif"
+          font-size="13" font-weight="600" fill="#CFE3FF" letter-spacing="3">JERUSALEM &#183; ISRAEL</text>
+  </g>
+  <rect x=".5" y=".5" width="899" height="95" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+</svg>

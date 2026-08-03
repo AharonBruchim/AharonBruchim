@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220" role="img" aria-label="Aharon Bruchim — Full-Stack Engineer">
+  <title>Aharon Bruchim — Full-Stack Engineer</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop class="s1" offset="0%"   stop-color="#0B1220"/>
+      <stop class="s2" offset="55%"  stop-color="#14508C"/>
+      <stop class="s3" offset="100%" stop-color="#2F81F7"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity=".13"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="card"><rect width="900" height="220" rx="16"/></clipPath>
+
+    <style>
+      @keyframes drift {
+        0%   { stop-color: #0B1220; }
+        50%  { stop-color: #0E2A4E; }
+        100% { stop-color: #0B1220; }
+      }
+      @keyframes drift2 {
+        0%   { stop-color: #14508C; }
+        50%  { stop-color: #1D74CC; }
+        100% { stop-color: #14508C; }
+      }
+      @keyframes drift3 {
+        0%   { stop-color: #2F81F7; }
+        50%  { stop-color: #57A6FF; }
+        100% { stop-color: #2F81F7; }
+      }
+      .s1 { animation: drift  14s ease-in-out infinite; }
+      .s2 { animation: drift2 14s ease-in-out infinite; }
+      .s3 { animation: drift3 14s ease-in-out infinite; }
+
+      @keyframes waveA { from { transform: translateX(0);     } to { transform: translateX(-900px); } }
+      @keyframes waveB { from { transform: translateX(0);     } to { transform: translateX(-1200px); } }
+      .wave-a { animation: waveA 18s linear infinite; }
+      .wave-b { animation: waveB 26s linear infinite; }
+
+      @keyframes sweep { from { transform: translateX(-460px); } to { transform: translateX(1000px); } }
+      .sheen { animation: sweep 9s ease-in-out 1.5s infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .s1, .s2, .s3, .wave-a, .wave-b, .sheen, .f1, .f2, .f3 { animation: none; }
+      }
+
+      @keyframes float1 { 0%,100% { transform: translateY(0);     } 50% { transform: translateY(-13px); } }
+      @keyframes float2 { 0%,100% { transform: translateY(0);     } 50% { transform: translateY(10px);  } }
+      @keyframes pulse  { 0%,100% { opacity: .18; } 50% { opacity: .55; } }
+      .f1 { animation: float1 7s ease-in-out infinite, pulse 5s ease-in-out infinite; }
+      .f2 { animation: float2 9s ease-in-out infinite, pulse 6s ease-in-out .8s infinite; }
+      .f3 { animation: float1 11s ease-in-out 1.4s infinite, pulse 7s ease-in-out .4s infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="220" fill="url(#bg)"/>
+    <rect width="900" height="220" fill="url(#grid)"/>
+
+    <circle class="f1" cx="120" cy="52"  r="4"   fill="#9FD0FF"/>
+    <circle class="f2" cx="782" cy="74"  r="3"   fill="#CBE4FF"/>
+    <circle class="f3" cx="668" cy="42"  r="2.5" fill="#9FD0FF"/>
+    <circle class="f2" cx="212" cy="168" r="2.5" fill="#CBE4FF"/>
+    <circle class="f1" cx="838" cy="150" r="3.5" fill="#9FD0FF"/>
+
+    <g class="wave-a" opacity=".16">
+      <path d="M0 176 q112 -26 225 0 t225 0 t225 0 t225 0 v44 H0 Z" fill="#ffffff"/>
+    </g>
+    <g class="wave-b" opacity=".10">
+      <path d="M0 190 q150 -30 300 0 t300 0 t300 0 t300 0 v30 H0 Z" fill="#ffffff"/>
+    </g>
+
+    <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle">
+      <text class="name" x="450" y="98" font-size="46" font-weight="700" fill="#ffffff" letter-spacing="1.5">Aharon Bruchim</text>
+      <rect class="rule" x="386" y="116" width="128" height="2" rx="1" fill="#7FBBFF" opacity=".85"/>
+      <text class="role" x="450" y="146" font-size="17" font-weight="600" fill="#BFDBFF" letter-spacing="4.5">FULL-STACK ENGINEER</text>
+    </g>
+
+    <rect class="sheen" x="0" y="0" width="200" height="220" fill="url(#sheen)" transform="skewX(-18)"/>
+  </g>
+
+  <rect x=".5" y=".5" width="899" height="219" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".14"/>
+</svg>

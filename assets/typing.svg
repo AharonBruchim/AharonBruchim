@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 48" width="470" height="48" role="img" aria-label="React · Node.js · TypeScript · MongoDB — production systems, shipped end to end — growing toward AI/LLM engineering">
+  <title>React · Node.js · TypeScript · MongoDB</title>
+
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/><stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <!-- Base widths: line 1 is revealed, lines 2-3 are hidden. If CSS animation
+         never runs, the card still shows a complete, readable first line. -->
+    <clipPath id="c1"><rect class="r1" x="40" y="0" width="388" height="48"/></clipPath>
+    <clipPath id="c2"><rect class="r2" x="40" y="0" width="0"   height="48"/></clipPath>
+    <clipPath id="c3"><rect class="r3" x="40" y="0" width="0"   height="48"/></clipPath>
+
+    <style>
+      @keyframes t1 { 0%{width:0} 9.6%{width:388px} 24.4%{width:388px} 29.6%{width:0} 100%{width:0} }
+      @keyframes t2 { 0%,33.3%{width:0} 43%{width:388px} 57.8%{width:388px} 63%{width:0} 100%{width:0} }
+      @keyframes t3 { 0%,66.7%{width:0} 76.3%{width:337px} 91.1%{width:337px} 96.3%{width:0} 100%{width:0} }
+      .r1 { animation: t1 13.5s steps(40,end) infinite; }
+      .r2 { animation: t2 13.5s steps(40,end) infinite; }
+      .r3 { animation: t3 13.5s steps(40,end) infinite; }
+
+      @keyframes caret {
+        0%{transform:translateX(0)}        9.6%{transform:translateX(388px)}
+        24.4%{transform:translateX(388px)} 29.6%{transform:translateX(0)}
+        33.3%{transform:translateX(0)}     43%{transform:translateX(388px)}
+        57.8%{transform:translateX(388px)} 63%{transform:translateX(0)}
+        66.7%{transform:translateX(0)}     76.3%{transform:translateX(337px)}
+        91.1%{transform:translateX(337px)} 96.3%{transform:translateX(0)}
+        100%{transform:translateX(0)}
+      }
+      @keyframes blink { 0%,45%{opacity:1} 50%,95%{opacity:.15} 100%{opacity:1} }
+      .caret { animation: caret 13.5s steps(40,end) infinite, blink 1.1s steps(1,end) infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .r1 { animation: none; }
+        .r2, .r3, .caret { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x=".75" y=".75" width="468.5" height="46.5" rx="12" fill="url(#tg)" stroke="#2F81F7" stroke-opacity=".35" stroke-width="1.5"/>
+
+  <text x="18" y="30" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="700" fill="#3FB950">&#9656;</text>
+
+  <g font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="600">
+    <g clip-path="url(#c1)"><text x="40" y="30" fill="#79C0FF">React &#183; Node.js &#183; TypeScript &#183; MongoDB</text></g>
+    <g clip-path="url(#c2)"><text x="40" y="30" fill="#E6EDF3">Production systems, shipped end to end</text></g>
+    <g clip-path="url(#c3)"><text x="40" y="30" fill="#D2A8FF">Growing toward AI/LLM Engineering</text></g>
+  </g>
+
+  <rect class="caret" x="41" y="15" width="2.5" height="20" rx="1.2" fill="#3FB950" transform="translate(388,0)"/>
+</svg>

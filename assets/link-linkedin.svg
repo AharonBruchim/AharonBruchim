@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 46" width="176" height="46" role="img" aria-label="LinkedIn">
+  <title>LinkedIn — aharonbruchim</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/><stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <style>
+      @keyframes glow { 0%,100% { stroke-opacity:.35 } 50% { stroke-opacity:.85 } }
+      .ring { animation: glow 4s ease-in-out .5s infinite; }
+      @media (prefers-reduced-motion: reduce) { .ring { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="174" height="44" rx="22" fill="url(#g)"/>
+  <rect class="ring" x="1" y="1" width="174" height="44" rx="22" fill="none" stroke="#0A66C2" stroke-width="1.5"/>
+  <g transform="translate(19,11) scale(1)">
+    <rect width="24" height="24" rx="4" fill="#0A66C2"/>
+    <path fill="#fff" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9z"/>
+  </g>
+  <text x="54" y="29" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" fill="#E6EDF3" letter-spacing=".6">LinkedIn</text>
+</svg>
