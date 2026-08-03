@@ -37,6 +37,18 @@ full-stack foundation.
 
 ---
 
+## What I'm Working On
+
+- 🔍 **Retrieval** — taking [`docrag`](https://github.com/AharonBruchim/docrag) past brute-force
+  cosine: ANN indexing and a reranker pass on top of the hybrid dense⊕BM25 layer
+- 🤖 **Agents** — extending [`codegen`](https://github.com/AharonBruchim/codegen) toward
+  multi-step planning and safer tool execution, still fully local
+- 📊 **Evaluation** — measuring RAG quality against standard benchmarks
+  ([`rag-financebench`](https://github.com/AharonBruchim/rag-financebench)) instead of eyeballing answers
+- ☁️ **Production** — moving model-based systems off a local Ollama box and into deployed services
+
+---
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/AharonBruchim/AharonBruchim/main/assets/stack.svg" width="100%" alt="Tech stack — Frontend: React, TypeScript, JavaScript, Tailwind, MUI, HTML5, CSS3. Backend: Node.js, Express, REST API, Zod, JWT, OAuth2. State &amp; Data: Zustand, TanStack Query, React Router, MongoDB, Mongoose. Tools &amp; DevOps: Git, Docker, Vite, Linux, Nginx, RabbitMQ" />
