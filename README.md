@@ -39,7 +39,7 @@ full-stack foundation.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/AharonBruchim/AharonBruchim/main/assets/stack.svg" width="100%" alt="Tech stack: React, TypeScript, JavaScript, Tailwind CSS, MUI, HTML5, CSS3, Node.js, Express, REST API, Zod, JWT, OAuth2, Zustand, TanStack Query, React Router, MongoDB, Mongoose, Git, Docker, Vite, Linux, Nginx, RabbitMQ, gRPC" />
+<img src="https://raw.githubusercontent.com/AharonBruchim/AharonBruchim/main/assets/stack.svg" width="100%" alt="Tech stack — Frontend: React, TypeScript, JavaScript, Tailwind, MUI, HTML5, CSS3. Backend: Node.js, Express, REST API, Zod, JWT, OAuth2. State &amp; Data: Zustand, TanStack Query, React Router, MongoDB, Mongoose. Tools &amp; DevOps: Git, Docker, Vite, Linux, Nginx, RabbitMQ" />
 
 </div>
 
